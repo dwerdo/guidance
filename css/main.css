@@ -19,6 +19,15 @@
     padding-left: 70px;
 }
 
+.nav>li>a {
+    color: #ffffff;
+    display: inline-block;
+    padding: 0px;
+}
+
+.nav>li>a:hover {
+    background: transparent;
+}
 .nav {
     margin-top: 11px;
 }
