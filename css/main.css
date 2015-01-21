@@ -1,0 +1,193 @@
+.error-container h1, .news-feed h4, .news-feed ul, .news-feed p, .footer ul {
+    margin: 0;
+    padding: 0;
+}
+
+.news-feed li {
+    list-style: none;
+}
+
+.container {
+    width: 1400px;
+}
+
+.header {
+    background: url('../images/bg_nav.png') repeat-x;
+    padding-bottom: 11px;
+}
+.nav-container {
+    padding-left: 70px;
+}
+
+.nav {
+    margin-top: 11px;
+}
+.nav li {
+    display: inline-block;
+    color: #ffffff;
+    margin-right: 28px;
+    font-size: 12px;
+}
+
+.header .logo {
+    z-index: 999;
+    position: absolute;
+    right: 60px;
+}
+
+.space-banner {
+    background: url('../images/star-banner.png') no-repeat;
+    padding-top: 150px;
+}
+
+.content-container {
+    padding-top: 45px;
+    padding-bottom: 173px;
+    border-bottom: 4px solid #ef5d22
+}
+
+.error-container {
+    padding-left: 230px;
+}
+
+.error-container h1 {
+    margin-bottom: 0;
+    padding-bottom: 16px;
+    font-weight: 400;
+    word-spacing: 4px;
+}
+
+.error-container img {
+    border-top: 1px solid #e6e6e6;
+}
+
+.news-feed {
+    padding-top: 5px;
+    padding-right: 120px;
+    padding-left: 75px;
+}
+
+.news-feed li {
+    list-style: none;
+    padding-bottom: 10px;
+    margin-bottom: 11px;
+    border-bottom: 1px solid #B5B4B4;
+    padding-left: 3px;
+}
+
+.news-feed li:last-child {
+    border-bottom: none;
+}
+
+.news-feed h4 {
+    color: #fff;
+    background: #000;
+    font-weight: 400;
+    padding-left: 15px;
+    padding-top: 7px;
+    padding-bottom: 8px;
+    margin-bottom: 12px;
+}
+
+.more-news {
+    color: #bb5433;
+}
+
+.news-content {
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.time-of-feed {
+    color: #B5B4B4;
+    font-style: italic;
+}
+
+.footer {
+    background: #2b2b2b;
+    padding: 35px 0 50px 140px;
+    color: #aeaeae;
+}
+
+.footer .col-md-1, .footer .col-md-2, .footer .col-md-3, .footer .col-md-4 {
+    padding: 0;
+}
+
+.footer .column {
+    margin-right: 52px;
+}
+
+.footer-links {
+    padding: 10px 0 15px;
+    margin-bottom: 10px;
+}
+
+.footer-menu {
+    padding-left: 0;
+    margin-right: 40px;
+}
+
+.footer a {
+    color: #aeaeae;
+}
+
+.footer-heading {
+    font-size: 13px;
+    padding-bottom: 8px;
+}
+
+.groove {
+    border-bottom: solid;
+    border-bottom-style: groove;
+    border-width: 2px;
+    border-bottom-color: #454040;
+}
+
+.footer li {
+    
+    font-size: 12px;
+    list-style: none;
+    margin-bottom: 7px;
+}
+
+.social-list {
+    float: left;
+}
+
+.social-list li {
+    font-size: 11px;
+    margin-bottom: 15px;
+}
+
+.social-list-item {
+    background: url(../images/social-sprites.png) no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.social-list:first-child {
+    margin-right: 20px;
+}
+
+.ico_blogger{ background-position: 0 0; width: 21px; height: 21px; } 
+.ico_facebook{ background-position: 0 -71px; width: 21px; height: 21px; } 
+.ico_linkedin{ background-position: 0 -142px; width: 20px; height: 20px; } 
+.ico_pinterest{ background-position: 0 -212px; width: 21px; height: 21px; } 
+.ico_twitter{ background-position: 0 -283px; width: 22px; height: 22px; } 
+.ico_youtube{ background-position: 0 -355px; width: 21px; height: 21px; } 
+
+.footer-logo {
+    background: url(http://files.guidance.com/sites/all/themes/guidance_2012/images/logo-footer.png) no-repeat left top;
+    width: 137px;
+    height: 32px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.white {
+    color: #ffffff;
+}
+.small {
+    font-size: 10px;
+}
